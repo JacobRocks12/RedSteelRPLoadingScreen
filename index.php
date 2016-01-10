@@ -25,7 +25,7 @@ echo "</audio>"
 <script type="text/javascript" src="includes/slider.js"></script>
 <script type="text/javascript">-
 $('#background').cycle({ 
-fx: 'fade', // You can change the FX way the pictures changes with, an example scrollDown. Check out http://jquery.malsup.com/cycle/ for more about that matter
+fx: 'fade',
 speed: 2000, 
 timeout: 4000 
 });
@@ -213,7 +213,7 @@ timeout: 4000
 })();
 
 var music = document.getElementById("music");
-music.volume = 0.1;
+music.volume = 0.004;
 </script>
 </body>
 
